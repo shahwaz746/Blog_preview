@@ -1,0 +1,80 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    
+
+}
+.mid{
+
+    height: 56vh;
+    max-width: 39vh;
+    background-color: hsl(0, 0%, 100%);
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 18px;
+    box-shadow: 8px 8px 1px  black;
+    padding: 15px 15px ;
+    
+
+    
+   
+
+}
+.txt1{
+    background-color:hsl(47, 88%, 63%) ;
+    display: inline-block;
+    height: 26px;
+    width: 70px;
+
+    margin-top: 14px;
+    text-align: center;
+    font-size: 14px;
+    padding: 5px 5px ;
+    border-radius: 6px;
+    font-weight: 800;
+    
+    
+}
+h1{
+
+    font-size: 2.8vb;
+    margin-top: 5px;
+    color: hsl(0, 0%, 7%);
+    font-weight: 800;
+    
+}
+p{
+    margin-top: 8px;
+    color: hsl(0, 0%, 50%);
+    font-size: 16px;
+}
+.avtr{
+    height: 23px;
+    width: 23px;
+}
+.img1{
+    border-radius: 18px;
+}
+.avatar{
+    display:flex;
+    align-items: center;
+
+
+
+}
+.avatar .name{
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 13px;
+    color: black;
+    font-weight: 800;
+}
+.sum{
+    word-spacing: -2px;
+}
